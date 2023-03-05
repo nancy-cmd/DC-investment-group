@@ -1,0 +1,60 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+   
+#bg-img {
+    background-image: url(./images/bg-img.avif);
+    height: 700px;
+}
+.banner {
+    border: 2px solid rgb(7, 7, 74);
+    width: 500px;
+    height: 400px;
+    background-color: rgba(15, 15, 115, 0.704);
+    position: relative;
+    top: 171px;
+    left: 10%;
+    color: azure;
+}
+.inside-banner {
+    text-align: center;
+    padding: 3%;
+}
+#sec2 {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+}
+.teams {
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.teammate img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+}
